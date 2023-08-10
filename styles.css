@@ -1,0 +1,11 @@
+.Lander{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.k{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
