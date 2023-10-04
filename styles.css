@@ -1,8 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    z-index: -1; /* Push it behind the "Lander" div */
+}
+/* 
+#particles-js{
+    z-index: -20;
+    height: 100vh;
+
+} */
+
 .Lander{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+    z-index: 1;
 }
 .k{
     display: flex;
